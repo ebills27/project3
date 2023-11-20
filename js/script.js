@@ -2,12 +2,12 @@ var map;
 function initMap() {
 
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat:  41.698747, lng:-87.628406},
+    center: {lat:41.69867063883032,lng:-87.62827317537528},
     zoom: 15
   });
 
   var home = new google.maps.Marker({
-    position: { lat: 41.698747, lng: -87.628406},
+    position: {lat:41.69867063883032,lng:-87.62827317537528},
     map: map
   });
 

@@ -5,7 +5,6 @@
     <meta charset ="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script async src="js/script.js"></script>
     <style>
       @media only screen and (max-width: 768px) {
       body {
@@ -46,8 +45,8 @@
     </section>
     <section id="map-section">
       <div id="map">
-      <h1>Distance from my house</h1>
-        <iframe src="https://www.google.com/maps/d/embed?mid=125jm5zquE0_2Rs-BOCc10MM-wIj2JpQ&ehbc=2E312F" width="640" height="480"></iframe>
+        <h1>Distance from my house</h1>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_commutes_v2_c" async defer></script>
         width="800" height="600"
         style="border:0;"
         loading="lazy">
